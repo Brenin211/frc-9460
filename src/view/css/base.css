@@ -38,7 +38,15 @@ body {
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 2%;
+}
+
+.carousel {
+    width: 60%;
+    height: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
 }
